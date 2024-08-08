@@ -1,3 +1,4 @@
+import Care from './components/careSection/Care'
 import Hero from './components/heroSection/Hero'
 import How from './components/howSection/How'
 import Navbar from './components/navbar/Navbar'
@@ -24,7 +25,9 @@ function App() {
         <How />
         <Spacer height={189} />
         <Track/>
+        <Care/>
         <Spacer height={189} />
+
 
       </Box>
 

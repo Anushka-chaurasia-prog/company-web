@@ -2,17 +2,15 @@ import React from 'react'
 import Headings from '../utils/Headings'
 import SubHeading from './subHeading'
 import ImageSection from './ImageSection'
-import Spacer from '../utils/Spacer'
 
-const Track = () => {
+const Care = () => {
   return (
     <>
-      <Headings heading={"Track your health journey\nwith ease"}/>
+      <Headings heading={"Take care of your\nloved ones"} mar={20}/>
       <SubHeading/>
       <ImageSection/>
-      <Spacer height={170}/>
     </>
   )
 }
 
-export default Track
+export default Care

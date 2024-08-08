@@ -1,11 +1,16 @@
+import Hero from './components/heroSection/Hero'
+import Navbar from './components/navbar/Navbar'
+import './index.css'
 function App() {
 
 
   return (
     <>
-      <h1>Hello world</h1>
+    <Navbar/>
+    <Hero/>
     </>
   )
 }
+
 
 export default App

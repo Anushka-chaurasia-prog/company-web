@@ -12,7 +12,7 @@ const ImageSection = () => {
         marginTop: "96px",
         display: 'flex',
         flexDirection: 'column',
-        width: '80vw',
+        width: '70vw',
         height: 'auto',
         gap: "48px"
       }}

@@ -13,6 +13,9 @@ import './index.css'
 import { Box } from '@mui/material'
 // import HealthAdvice from './components/HealthAdvice'
 import HealthRecords from './components/HealthRecord'
+import Sliding from './components/Sliding'
+import ColourSlide from './components/ColourSlide'
+
 
 function App() {
 
@@ -43,9 +46,12 @@ function App() {
       <HEROSECTION/>
       <HealthRecords/>
       <MpbilePage/>
+      <Sliding/>
 
       {/* <HealthAdd/> */}
       <Questions/>
+      <ColourSlide/>
+      
     
       
 

@@ -1,0 +1,66 @@
+/* Outer container to provide a lot of margin and white background */
+.outer-container {
+  background-color: white;
+  padding: 20px;
+  margin: 40px auto; /* Centers the container with margin on the left and right */
+  max-width: 800px; /* Reduces the width to create more margin space on larger screens */
+  border-radius: 12px; /* Optional: Adds rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a slight shadow for depth */
+}
+
+/* Main container for the content */
+.health-records-container {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+  line-height: 1.2;
+  background: linear-gradient(90deg, #F94E4E 0%, #4E4EEF 50%, #344DFF 100%);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.header .highlight {
+  color: inherit; /* Inherits the gradient color from the parent h1 */
+}
+
+.header p {
+  font-size: 16px;
+  color: #777;
+  margin-bottom: 40px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.card {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.card-title {
+  font-weight: bold;
+  color: #ff6b6b;
+  margin-bottom: 10px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 16px;
+  color: #333;
+}

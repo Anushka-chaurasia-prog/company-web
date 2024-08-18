@@ -27,4 +27,4 @@ build/
 
 # Ignore generated file by React
 serviceWorker.js
-node_modules/
+
